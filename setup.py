@@ -1,14 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='your_library',  # Replace with your library's name
-    version='0.1.0',  # Initial release version
-    author='Your Name',  # Replace with your name
-    author_email='your.email@example.com',  # Replace with your email
+    name='AlzPy', 
+    version='0.1.0',  
+    author='Owen Sweeney',  
+    author_email='owensweeney97@gmail.com',  
     description='A library for data processing and analysis.',
-    long_description=open('README.md').read(),  # Ensure you have a README.md
-    long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/your_library',  # Replace with your library's URL
+    
+    url='https://github.com/owensweeney97/AlzPy/tree/main',  
     packages=find_packages(),
     install_requires=[
         'pandas>=1.1.0',
@@ -21,7 +20,7 @@ setup(
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',  # Choose an appropriate license
+        'License :: OSI Approved :: MIT License',  
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
